@@ -312,8 +312,8 @@ function propagateItemsByPositionIndex(arr) {
     const pos = arr.indexOf(el) + 1;
     return Array(pos).fill(el);
   }
-  const res = arr.map(multipleEl);
-  return res.flat();
+  const result = arr.map(multipleEl);
+  return result.flat();
 }
 
 
